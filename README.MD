@@ -2,6 +2,9 @@
 # Project Name
  Portfolio setup for mobile version skeleton
 
+ ![screenshot](./screen.png)
+
+
 ## Built With
 
 -HTML
