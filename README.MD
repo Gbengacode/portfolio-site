@@ -1,6 +1,6 @@
 
 # Project Name
- Portfolio setup and mobile version skeleton
+ Portfolio setup for mobile version skeleton
 
 ## Built With
 
