@@ -7,6 +7,7 @@
  ![screenshot](./screen3.png)
  ![screenshot](./screen4.png)
  ![screenshot](./screen5.png)
+  ![screenshot](./screen6.png)
 
 ## Built With
 
