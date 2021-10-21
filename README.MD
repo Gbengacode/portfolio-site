@@ -3,7 +3,10 @@
  Portfolio setup for mobile version skeleton
 
  ![screenshot](./screen.png)
-
+ ![screenshot](./screen2.png)
+ ![screenshot](./screen3.png)
+ ![screenshot](./screen4.png)
+ ![screenshot](./screen5.png)
 
 ## Built With
 
