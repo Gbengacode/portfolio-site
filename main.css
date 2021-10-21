@@ -23,6 +23,64 @@ section .navbar {
   justify-content: space-between;
 }
 
+.lang {
+  display: flex;
+  padding: 0;
+  gap: 250px;
+}
+
+.lang li {
+  list-style: none;
+  color: #000;
+}
+
+.lang-2 {
+  display: flex;
+  padding: 0;
+  gap: 250px;
+  width: 400px;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.lang-2 li {
+  list-style: none;
+  color: #000;
+}
+
+.lang-3 {
+  display: flex;
+  padding: 0;
+  gap: 310px;
+  width: 400px;
+  border-bottom: 2px solid #dfe1e6;
+}
+
+.lang-3 li {
+  list-style: none;
+  color: #000;
+}
+
+.lang-sub {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  background: #f7f7f9;
+  padding: 0;
+  gap: 20px;
+}
+
+.lang-sub li {
+  list-style: none;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #253858;
+  align-self: center;
+}
+
 .navbar ul li {
   list-style: none;
 }
@@ -56,6 +114,11 @@ section .navbar {
   flex-direction: column;
 }
 
+button:hover {
+  transform: rotate(360deg);
+  transform: scale(1.01);
+}
+
 .intro-wrapper .landing-page-bg .intro-heading {
   font-size: 40px;
   font-style: normal;
@@ -75,6 +138,11 @@ section .navbar {
   color: #172b4d;
 }
 
+.port-card .portfolio-tab ul {
+  display: flex;
+  padding: 0;
+}
+
 .intro-wrapper .landing-page-bg .connect-heading {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -83,6 +151,34 @@ section .navbar {
   line-height: 24px;
   text-align: left;
   color: #344563;
+}
+
+.port-card .portfolio-tab li {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7a869a;
+  list-style: none;
+}
+
+.about-me-section .cover-div button {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 124px;
+  height: 48px;
+  margin-top: 20px;
+  color: #396df2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }
 
 .intro-wrapper .landing-page-bg .connect-links ul {
@@ -94,4 +190,152 @@ section .navbar {
 .intro-wrapper .landing-page-bg .connect-links ul li {
   list-style: none;
   padding: 10px;
+}
+
+.port-card {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+}
+
+.port-card .portfolio-tab h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.port-card .portfolio-tab .darker-text {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  list-style: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.port-card .portfolio-tab .dot {
+  background-color: #bbb;
+  border-radius: 10%;
+}
+
+.port-card .portfolio-tab li span {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7a869a;
+  list-style: none;
+  padding: 10px;
+}
+
+.port-card .portfolio-tab p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.port-card .portfolio-tab .badge button {
+  margin: 6px;
+  background: #ebebff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.port-card .portfolio-tab .badge button :hover {
+  color: #ebebff;
+  background: #6070ff;
+}
+
+.port-card .portfolio-tab .portfolio-call-btn button {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 124px;
+  height: 48px;
+  margin-top: 20px;
+  color: #396df2;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.about-me-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px;
+  margin: 5px;
+}
+
+.about-me-section .cover-div .intro-heading {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.about-me-section .cover-div .intro-text {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div .connect-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div .connect-links ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.about-me-section .cover-div .connect-links ul li {
+  list-style: none;
+  padding: 5px;
 }
