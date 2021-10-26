@@ -49,7 +49,10 @@ section .navbar {
   margin-top: 20px;
   padding: 20px;
 }
-
+.lang .divider {
+  padding: 0 0 0 20px;
+  height: 5vh;
+}
 .lang .dropdown-li {
   display: block;
 }
@@ -121,6 +124,11 @@ section .navbar {
 button:hover {
   transform: rotate(360deg);
   transform: scale(1.01);
+}
+
+button:active {
+  transform: rotate(360deg);
+  transform: scale(2.01);
 }
 
 .intro-wrapper .intro-heading {
@@ -354,8 +362,8 @@ form p {
   background-size: cover;
   background-position: center;
   color: #fff;
-  margin: 40px;
-  border-radius: 16px;
+  border-top-left-radius: 89px;
+  padding: 0;
 }
 
 .contact-bg form {
@@ -376,6 +384,27 @@ form input {
   border-radius: 1vw;
   border: #fff solid 0.1px;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 24px;
+  font-style: normal;
+}
+
+form textarea {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+form input[type="submit"] {
+  display: block;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+form input[type="submit"]:focus {
+  background: #5e6ad8;
+  color: #fff;
 }
