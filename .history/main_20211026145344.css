@@ -4,12 +4,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -48,11 +42,6 @@ section .navbar {
   justify-content: space-between;
   margin-top: 20px;
   padding: 20px;
-}
-
-.lang .divider {
-  padding: 0 0 0 20px;
-  height: 5vh;
 }
 
 .lang .dropdown-li {
@@ -126,11 +115,6 @@ section .navbar {
 button:hover {
   transform: rotate(360deg);
   transform: scale(1.01);
-}
-
-button:active {
-  transform: rotate(360deg);
-  transform: scale(2.01);
 }
 
 .intro-wrapper .intro-heading {
@@ -235,16 +219,6 @@ button:active {
   margin: 0;
 }
 
-form h2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .port-card .portfolio-tab h2 {
   font-size: 32px;
   font-style: normal;
@@ -271,14 +245,6 @@ form h2 {
 .port-card .portfolio-tab .dot {
   background-color: #bbb;
   border-radius: 10%;
-}
-
-form p {
-  text-align: center;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
 }
 
 .port-card .portfolio-tab p {
@@ -359,54 +325,4 @@ form p {
   padding: 10px;
 }
 
-.contact-bg {
-  background-image: url(./img/contact.png);
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  border-top-left-radius: 89px;
-  padding: 0;
-}
-
-.contact-bg form {
-  padding: 6vw;
-}
-
-.form-group * {
-  width: 100%;
-  margin-bottom: 3vw;
-  padding: 1vw;
-  border-radius: 2vw;
-  border: #fff solid 0.1px;
-}
-
-form input {
-  padding: 2vw;
-  color: #6070ff;
-  border-radius: 1vw;
-  border: #fff solid 0.1px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  font-style: normal;
-}
-
-form textarea {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-form input[type="submit"] {
-  display: block;
-  cursor: pointer;
-}
-
-form input[type="submit"]:hover {
-  background: #6070ff;
-  color: #fff;
-}
-
-form input[type="submit"]:focus {
-  background: #5e6ad8;
-  color: #fff;
-}
+.
