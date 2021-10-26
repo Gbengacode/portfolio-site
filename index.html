@@ -293,6 +293,7 @@
             <div class="form-group">
               <input
                 type="text"
+                name="name"
                 placeholder="Yeremias"
                 required
                 maxlength="30"
@@ -300,15 +301,21 @@
             </div>
 
             <div class="form-group">
-              <input type="email" placeholder="email" required />
+              <input 
+              type="email" 
+              placeholder="email"
+              name="email" 
+              required 
+              />
             </div>
             <div class="form-group">
               <textarea
                 maxlength="500"
                 placeholder="message"
+                name="message"
                 required
-                cols="30"
-                rows="30"
+                cols="10"
+                rows="10"
               ></textarea>
             </div>
             <input type="submit" value="Get In Touch" />
