@@ -352,7 +352,10 @@ form p {
 .contact-bg {
   background-image: url(./img/contact.png);
   background-size: cover;
+  background-position: center;
   color: #fff;
+  margin: 40px;
+  border-radius: 16px;
 }
 
 .contact-bg form {
@@ -362,7 +365,7 @@ form p {
 .form-group * {
   width: 100%;
   margin-bottom: 3vw;
-  padding: 3vw;
+  padding: 1vw;
   border-radius: 2vw;
   border: #fff solid 0.1px;
 }
