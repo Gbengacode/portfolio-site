@@ -49,10 +49,12 @@ section .navbar {
   margin-top: 20px;
   padding: 20px;
 }
+
 .lang .divider {
   padding: 0 0 0 20px;
   height: 5vh;
 }
+
 .lang .dropdown-li {
   display: block;
 }
