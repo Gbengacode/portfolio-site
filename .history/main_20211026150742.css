@@ -225,16 +225,6 @@ button:hover {
   margin: 0;
 }
 
-form h2 {
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .port-card .portfolio-tab h2 {
   font-size: 32px;
   font-style: normal;
@@ -261,14 +251,6 @@ form h2 {
 .port-card .portfolio-tab .dot {
   background-color: #bbb;
   border-radius: 10%;
-}
-
-form p {
-  text-align: center;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #ebebff;
 }
 
 .port-card .portfolio-tab p {
@@ -356,23 +338,24 @@ form p {
 }
 
 .contact-bg form {
-  padding: 6vw;
+ padding: 6vw;
 }
 
 .form-group * {
   width: 100%;
   margin-bottom: 3vw;
-  padding: 3vw;
-  border-radius: 2vw;
-  border: #fff solid 0.1px;
+  padding: 2vw;
+  border-radius: 3vw;
+  border: ;
+
 }
 
-form input {
-  padding: 2vw;
-  color: #6070ff;
-  border-radius: 1vw;
-  border: #fff solid 0.1px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+form h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
