@@ -14,27 +14,36 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background-color: #e5e5e5;
 }
 
-section .navbar {
-  padding: 30px;
+header {
+  display: flex;
+  padding: 40px;
+  background-color: #fff;
+}
+
+header .logo {
+  flex: 1;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 .navbar ul {
   display: flex;
-  margin: 20px;
-  padding: 0;
   list-style: none;
-  justify-content: space-between;
 }
 
-.navbar ul li {
-  list-style: none;
+.navbar ul .navbar-item {
+  padding: 10px;
+  margin: 0;
 }
 
 .navbar ul .navbar-item a {
   text-decoration: none;
+  color: #344563;
 }
 
 .lang {
@@ -121,6 +130,8 @@ section .navbar {
   background-position: center center;
   height: 100vh;
   background-repeat: no-repeat;
+  background-color: #fff;
+  border-bottom-left-radius: 85px;
 }
 
 button:hover {
@@ -227,7 +238,8 @@ button:active {
   border-radius: 10px;
   border: 1px solid #dfe1e6;
   padding: 40px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+  background-color: #fff;
 }
 
 .port-card .portfolio-tab figure {
@@ -294,6 +306,7 @@ form p {
 .about-me-section .cover-div {
   display: flex;
   flex-direction: column;
+  padding: 40px;
 }
 
 .port-card .portfolio-tab .portfolio-call-btn button {
@@ -316,8 +329,9 @@ form p {
 .about-me-section {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px;
   margin: 5px;
+  background-color: #fff;
+  border-top-right-radius: 85px;
 }
 
 .about-me-section .cover-div .intro-heading {
@@ -361,11 +375,13 @@ form p {
 
 .contact-bg {
   background-image: url(./img/contact.png);
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  background-position: center;
   color: #fff;
   border-top-left-radius: 89px;
   padding: 0;
+  margin: 0;
 }
 
 .contact-bg form {
