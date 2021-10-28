@@ -25,10 +25,13 @@ header {
 
 header .logo {
   flex: 1;
+  padding: 10px;
+  margin: auto;
 }
 
 .logo a {
   text-decoration: none;
+  font-size: 20px;
 }
 
 .navbar ul {
@@ -37,7 +40,7 @@ header .logo {
 }
 
 .navbar ul .navbar-item {
-  padding: 10px;
+  padding: 15px;
   margin: 0;
 }
 
@@ -134,14 +137,26 @@ header .logo {
   border-bottom-left-radius: 85px;
 }
 
-button:hover {
-  transform: rotate(360deg);
-  transform: scale(1.01);
+.btn-white {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 50%;
+  height: 48px;
+  margin-top: 20px;
+  color: #396df2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
 }
 
-button:active {
-  transform: rotate(360deg);
-  transform: scale(2.01);
+.btn-white:hover {
+  background: #4053fc;
+  color: #fff;
 }
 
 .intro-wrapper .intro-heading {
@@ -158,7 +173,7 @@ button:active {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   text-align: left;
   color: #172b4d;
 }
@@ -178,7 +193,7 @@ button:active {
   color: #344563;
 }
 
-.about-me-section .cover-div button {
+.btn-white-one {
   padding: 12px;
   border: 1px solid #6070ff;
   box-sizing: border-box;
@@ -207,9 +222,9 @@ button:active {
 }
 
 .port-card .portfolio-tab .badge li {
-  padding: 4px 12px;
+  padding: 1vw 3vw;
   background: #ebebff;
-  border-radius: 8px;
+  border-radius: 2vw;
   margin: 0 8px 0 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -242,7 +257,7 @@ button:active {
   background-color: #fff;
 }
 
-.port-card .portfolio-tab figure {
+.port-card .portfolio-tab figure img {
   width: 100%;
   margin: 0;
 }
@@ -297,7 +312,7 @@ form p {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 0;
   text-align: left;
   color: #344563;
@@ -307,23 +322,6 @@ form p {
   display: flex;
   flex-direction: column;
   padding: 40px;
-}
-
-.port-card .portfolio-tab .portfolio-call-btn button {
-  padding: 12px;
-  border: 1px solid #6070ff;
-  box-sizing: border-box;
-  border-radius: 16px;
-  background-color: #fff;
-  width: 50%;
-  margin-top: 20px;
-  color: #396df2;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 
 .about-me-section {
@@ -347,7 +345,7 @@ form p {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 30px;
   letter-spacing: 0;
   text-align: left;
   color: #344563;
@@ -370,7 +368,7 @@ form p {
 
 .about-me-section .cover-div .connect-links ul li {
   list-style: none;
-  padding: 10px;
+  padding: 15px;
 }
 
 .contact-bg {
@@ -425,4 +423,127 @@ form input[type="submit"]:hover {
 form input[type="submit"]:focus {
   background: #5e6ad8;
   color: #fff;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .navbar ul .main-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1500px) {
+  .navbar ul .hamburger {
+    display: none;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    background-image: url("./img/Headerbg.svg");
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 85px;
+    opacity: 0.9;
+  }
+
+  .intro-wrapper .container {
+    margin: 0 15%;
+  }
+
+  .port-card .portfolio-tab {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid #dfe1e6;
+    box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+    background-color: #fff;
+  }
+
+  .btn-white {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #fff;
+    width: 30%;
+    height: 48px;
+    margin-top: 20px;
+    color: #396df2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .btn-white-one {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #4053fc;
+    width: 30%;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .btn-white-one:hover {
+    background: #fff;
+    color: #4053fc;
+  }
+
+  .intro-wrapper .intro-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #172b4d;
+  }
+
+  .about-me-section .cover-div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .lang .dropdown-li ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .contact-bg form {
+    padding: 5vw 24vw;
+  }
+
+  form input[type="submit"] {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  form input[type="submit"]:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .contact-bg {
+    background-image: url(./img/contactbg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    border-top-left-radius: 89px;
+    padding: 0;
+    margin: 0;
+  }
 }
