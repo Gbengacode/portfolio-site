@@ -260,6 +260,12 @@ header .logo {
 .port-card .portfolio-tab figure img {
   width: 100%;
   margin: 0;
+  transition: all 1s ease-out;
+}
+
+.port-card .portfolio-tab figure img:hover {
+  transform: scale(1.02, 1.02);
+  opacity: 0.9;
 }
 
 form h2 {
@@ -306,6 +312,11 @@ form p {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
+  transition: transform 3s ease-out;
+}
+
+form p:hover {
+  transform: translate(50%);
 }
 
 .port-card .portfolio-tab p {
