@@ -442,7 +442,7 @@ form input[type="submit"]:focus {
   }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1500px) {
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
   .navbar ul .hamburger {
     display: none;
   }
