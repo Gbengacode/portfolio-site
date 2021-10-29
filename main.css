@@ -90,11 +90,43 @@ header .logo {
 
 .lang .dropdown-li ul li {
   display: flex;
+  visibility: hidden;
   align-items: center;
   margin: 12px;
   padding: 9px;
   background: #f7f7f9;
   border-radius: 8px;
+}
+
+.intro-wrapper .connect-links ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.port-card .portfolio-tab .badge li {
+  padding: 1vw 3vw;
+  background: #ebebff;
+  border-radius: 2vw;
+  margin: 0 8px 0 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.lang .dropdown-li ul li:nth-child(1) {
+  animation: forwards 2s 0.2s slidein;
+}
+
+.lang .dropdown-li ul li:nth-child(2) {
+  animation: forwards 2s 0.5s slidein;
+}
+
+.lang .dropdown-li ul li:nth-child(3) {
+  animation: forwards 2s 0.8s slidein;
 }
 
 .port-card .portfolio-tab li span {
@@ -214,25 +246,6 @@ header .logo {
   display: flex;
   flex-direction: row;
   padding: 0;
-}
-
-.intro-wrapper .connect-links ul li {
-  list-style: none;
-  padding: 10px;
-}
-
-.port-card .portfolio-tab .badge li {
-  padding: 1vw 3vw;
-  background: #ebebff;
-  border-radius: 2vw;
-  margin: 0 8px 0 0;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
 }
 
 .port-card .portfolio-tab .badge li :hover {
@@ -556,5 +569,19 @@ form input[type="submit"]:focus {
     border-top-left-radius: 89px;
     padding: 0;
     margin: 0;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    visibility: visible;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    visibility: visible;
+    width: 100%;
   }
 }
