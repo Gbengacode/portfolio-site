@@ -2,19 +2,19 @@
 # Project Name
  Portfolio setup for mobile version skeleton
 
- ![screenshot](./screen.png)
- ![screenshot](./screen2.png)
- ![screenshot](./screen3.png)
- ![screenshot](./screen4.png)
- ![screenshot](./screen5.png)
- ![screenshot](./screen6.png)
- ![screenshot](./desktop1.png)
- ![screenshot](./desktop2.png)
- ![screenshot](./desktop3.png)
- ![screenshot](./desktop4.png)
- ![screenshot](./desktop5.png)
- ![screenshot](./desktop6.png)
- ![screenshot](./desktop7.png)
+ ![screenshot](./screenshots/screen.png)
+ ![screenshot](./screenshots/screen2.png)
+ ![screenshot](./screenshots/screen3.png)
+ ![screenshot](./screenshots/screen4.png)
+ ![screenshot](./screenshots/screen5.png)
+ ![screenshot](./screenshots/screen6.png)
+ ![screenshot](./screenshots/desktop1.png)
+ ![screenshot](./screenshots/desktop2.png)
+ ![screenshot](./screenshots/desktop3.png)
+ ![screenshot](./screenshots/desktop4.png)
+ ![screenshot](./screenshots/desktop5.png)
+ ![screenshot](./screenshots/desktop6.png)
+ ![screenshot](./screenshots/desktop7.png)
 ## Built With
 
 -HTML
