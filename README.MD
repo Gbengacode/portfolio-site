@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[View Live Demo Site](http://127.0.0.1:5501/Setup-mobile-version-porfolio/)
+[View Live Demo Site](https://gbengacode.github.io/Setup-mobile-version-porfolio/)
 
 
 
