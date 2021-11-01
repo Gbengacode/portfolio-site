@@ -442,7 +442,124 @@ form input[type="submit"]:focus {
   }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1100px) {
+@media only screen and (min-width: px) and (max-width: 1100px) {
+  .navbar ul .hamburger {
+    display: none;
+  }
+
+  .intro-wrapper {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    background-image: url("./img/Headerbg.svg");
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 85px;
+    opacity: 0.9;
+  }
+
+  .intro-wrapper .container {
+    margin: 0 15%;
+  }
+
+  .port-card .portfolio-tab {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid #dfe1e6;
+    box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+    background-color: #fff;
+  }
+
+  .btn-white {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #fff;
+    width: 30%;
+    height: 48px;
+    margin-top: 20px;
+    color: #396df2;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .btn-white-one {
+    padding: 12px;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #4053fc;
+    width: 30%;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .btn-white-one:hover {
+    background: #fff;
+    color: #4053fc;
+  }
+
+  .intro-wrapper .intro-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #172b4d;
+  }
+
+  .about-me-section .cover-div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .lang .dropdown-li ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .contact-bg form {
+    padding: 5vw 24vw;
+  }
+
+  form input[type="submit"] {
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  form input[type="submit"]:hover {
+    background: #6070ff;
+    color: #fff;
+  }
+
+  .contact-bg {
+    background-image: url(./img/contactbg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    border-top-left-radius: 89px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1500px) {
   .navbar ul .hamburger {
     display: none;
   }
