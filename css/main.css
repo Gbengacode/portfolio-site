@@ -14,12 +14,12 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e5e5e5;
+  background: #e5e5e5;
 }
 
 header {
   display: flex;
-  padding: 40px;
+  padding: 20px;
   background-color: #fff;
 }
 
@@ -77,15 +77,19 @@ header .logo {
   list-style: none;
 }
 
-.port-card .portfolio-tab li {
+.port-card .portfolio-tab ul li {
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
-  line-height: 16px;
+  line-height: 10px;
   letter-spacing: 0;
   text-align: left;
   color: #7a869a;
-  list-style: none;
+}
+
+.port-card .portfolio-tab ul li::marker {
+  font-size: 1.5em;
+  color: #7a869a;
 }
 
 .lang .dropdown-li ul li {
@@ -95,18 +99,6 @@ header .logo {
   padding: 9px;
   background: #f7f7f9;
   border-radius: 8px;
-}
-
-.port-card .portfolio-tab li span {
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #7a869a;
-  list-style: none;
-  padding: 10px;
 }
 
 .lang .dropdown-li ul li span {
@@ -129,11 +121,8 @@ header .logo {
   display: flex;
   padding: 40px;
   flex-direction: column;
-  background-image: url("./img/background.svg");
-  background-position: center center;
+  background: #fff url(../img/background.svg) no-repeat center center;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-color: #fff;
   border-bottom-left-radius: 85px;
 }
 
@@ -181,9 +170,11 @@ header .logo {
 .port-card .portfolio-tab ul {
   display: flex;
   padding: 0;
+  margin: 0;
+  gap: 40px;
 }
 
-.intro-wrapper .connect-heading {
+.intro-wrapper .connect-lead {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -198,7 +189,7 @@ header .logo {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 16px;
-  background-color: #fff;
+  background: #fff;
   width: 124px;
   height: 48px;
   margin-top: 20px;
@@ -214,11 +205,15 @@ header .logo {
   display: flex;
   flex-direction: row;
   padding: 0;
+  list-style-type: none;
 }
 
 .intro-wrapper .connect-links ul li {
-  list-style: none;
   padding: 10px;
+}
+
+.port-card .portfolio-tab .badge ul {
+  list-style-type: none;
 }
 
 .port-card .portfolio-tab .badge li {
@@ -288,7 +283,7 @@ form h2 {
   color: #172b4d;
 }
 
-.port-card .portfolio-tab .darker-text {
+.port-card .portfolio-tab .text-dark {
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -362,7 +357,7 @@ form p:hover {
   color: #344563;
 }
 
-.about-me-section .cover-div .connect-heading {
+.about-me-section .cover-div .connect-lead {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -374,18 +369,16 @@ form p:hover {
 .about-me-section .cover-div .connect-links ul {
   display: flex;
   flex-direction: row;
+  list-style-type: none;
   padding: 0;
 }
 
 .about-me-section .cover-div .connect-links ul li {
-  list-style: none;
   padding: 15px;
 }
 
 .contact-bg {
-  background-image: url(./img/contact.png);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url(../img/contact.png) no-repeat center center;
   background-size: cover;
   color: #fff;
   border-top-left-radius: 89px;
@@ -400,13 +393,13 @@ form p:hover {
 .form-group * {
   width: 100%;
   margin-bottom: 3vw;
-  padding: 1vw;
+  padding: 1.4vw;
   border-radius: 2vw;
   border: #fff solid 0.1px;
 }
 
 form input {
-  padding: 2vw;
+  padding: 1.5vw;
   color: #6070ff;
   border-radius: 1vw;
   border: #fff solid 0.1px;
@@ -434,250 +427,4 @@ form input[type="submit"]:hover {
 form input[type="submit"]:focus {
   background: #5e6ad8;
   color: #fff;
-}
-
-@media only screen and (min-width: 360px) and (max-width: 480px) {
-  .navbar ul .main-menu {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 699px) {
-  .navbar ul .main-menu {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 1100px) {
-  .navbar ul .hamburger {
-    display: none;
-  }
-
-  .intro-wrapper {
-    display: flex;
-    padding: 40px;
-    flex-direction: column;
-    background-image: url("./img/Headerbg.svg");
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 85px;
-    opacity: 0.9;
-  }
-
-  .intro-wrapper .container {
-    margin: 0 15%;
-  }
-
-  .port-card .portfolio-tab {
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    border: 1px solid #dfe1e6;
-    box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
-    background-color: #fff;
-  }
-
-  .btn-white {
-    padding: 12px;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 16px;
-    background-color: #fff;
-    width: 30%;
-    height: 48px;
-    margin-top: 20px;
-    color: #396df2;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .btn-white-one {
-    padding: 12px;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 8px;
-    background-color: #4053fc;
-    width: 30%;
-    margin-top: 20px;
-    color: #fff;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  }
-
-  .btn-white-one:hover {
-    background: #fff;
-    color: #4053fc;
-  }
-
-  .intro-wrapper .intro-text {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  .about-me-section .cover-div {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-  }
-
-  .lang .dropdown-li ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-  }
-
-  .contact-bg form {
-    padding: 5vw 24vw;
-  }
-
-  form input[type="submit"] {
-    display: block;
-    cursor: pointer;
-    margin: 0 auto;
-  }
-
-  form input[type="submit"]:hover {
-    background: #6070ff;
-    color: #fff;
-  }
-
-  .contact-bg {
-    background-image: url(./img/contactbg.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: #fff;
-    border-top-left-radius: 89px;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1500px) {
-  .navbar ul .hamburger {
-    display: none;
-  }
-
-  .intro-wrapper {
-    display: flex;
-    padding: 40px;
-    flex-direction: column;
-    background-image: url("./img/Headerbg.svg");
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 85px;
-    opacity: 0.9;
-  }
-
-  .intro-wrapper .container {
-    margin: 0 15%;
-  }
-
-  .port-card .portfolio-tab {
-    display: flex;
-    flex-direction: row;
-    border-radius: 10px;
-    border: 1px solid #dfe1e6;
-    box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
-    background-color: #fff;
-  }
-
-  .btn-white {
-    padding: 12px;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 16px;
-    background-color: #fff;
-    width: 30%;
-    height: 48px;
-    margin-top: 20px;
-    color: #396df2;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  .btn-white-one {
-    padding: 12px;
-    border: 1px solid #6070ff;
-    box-sizing: border-box;
-    border-radius: 8px;
-    background-color: #4053fc;
-    width: 30%;
-    margin-top: 20px;
-    color: #fff;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  }
-
-  .btn-white-one:hover {
-    background: #fff;
-    color: #4053fc;
-  }
-
-  .intro-wrapper .intro-text {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-align: left;
-    color: #172b4d;
-  }
-
-  .about-me-section .cover-div {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-  }
-
-  .lang .dropdown-li ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-  }
-
-  .contact-bg form {
-    padding: 5vw 24vw;
-  }
-
-  form input[type="submit"] {
-    display: block;
-    cursor: pointer;
-    margin: 0 auto;
-  }
-
-  form input[type="submit"]:hover {
-    background: #6070ff;
-    color: #fff;
-  }
-
-  .contact-bg {
-    background-image: url(./img/contactbg.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    color: #fff;
-    border-top-left-radius: 89px;
-    padding: 0;
-    margin: 0;
-  }
 }
