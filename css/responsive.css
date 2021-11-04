@@ -32,19 +32,20 @@
 
   .btn-white {
     padding: 12px;
-    border: 1px solid #6070ff;
+    border: 1px solid #071ffd;
     box-sizing: border-box;
     border-radius: 16px;
     background-color: #fff;
     width: 30%;
     height: 48px;
     margin-top: 20px;
-    color: #396df2;
-    font-size: 14px;
+    color: #071ffd;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
+    outline: none;
   }
 
   .btn-white-one {
@@ -52,7 +53,7 @@
     border: 1px solid #6070ff;
     box-sizing: border-box;
     border-radius: 8px;
-    background: #4053fc;
+    background: #071ffd;
     width: 30%;
     margin-top: 20px;
     color: #fff;
