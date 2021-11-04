@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+}
+
+header .logo {
+  flex: 1;
+  padding: 10px;
+  margin: auto;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul .navbar-item {
+  padding: 15px;
+  margin: 0;
+}
+
+.navbar ul .navbar-item a {
+  text-decoration: none;
+  color: #344563;
+}
+
+.lang {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lang .child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.lang .divider {
+  padding: 0 0 0 20px;
+  height: 5vh;
+}
+
+.lang .dropdown-li {
+  display: block;
+}
+
+.lang .dropdown-li ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.port-card .portfolio-tab ul li {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7a869a;
+}
+
+.port-card .portfolio-tab ul li::marker {
+  font-size: 1.5em;
+  color: #7a869a;
+}
+
+.lang .dropdown-li ul li {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  padding: 9px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+.lang .dropdown-li ul li span {
+  padding: 10px;
+  align-self: center;
+  color: #253858;
+}
+
+.navbar ul .navbar-brand a {
+  color: #6070ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.intro-wrapper {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  background: #fff url(../img/background.svg) no-repeat center center;
+  height: 100vh;
+  border-bottom-left-radius: 85px;
+}
+
+.btn-white {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 50%;
+  height: 48px;
+  margin-top: 20px;
+  color: #396df2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn-white:hover {
+  background: #4053fc;
+  color: #fff;
+}
+
+.intro-wrapper .intro-heading {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.3700000047683716px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.intro-wrapper .intro-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.port-card .portfolio-tab ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.intro-wrapper .connect-lead {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.btn-white-one {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #fff;
+  width: 124px;
+  height: 48px;
+  margin-top: 20px;
+  color: #396df2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.intro-wrapper .connect-links ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  list-style-type: none;
+}
+
+.intro-wrapper .connect-links ul li {
+  padding: 10px;
+}
+
+.port-card .portfolio-tab .badge ul {
+  list-style-type: none;
+}
+
+.port-card .portfolio-tab .badge li {
+  padding: 1vw 3vw;
+  background: #ebebff;
+  border-radius: 2vw;
+  margin: 0 8px 0 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.port-card .portfolio-tab .badge li :hover {
+  color: #ebebff;
+  background: #6070ff;
+}
+
+.port-card {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  padding: 40px;
+}
+
+.port-card .portfolio-tab {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  padding: 40px;
+  box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+  background-color: #fff;
+}
+
+.port-card .portfolio-tab figure img {
+  width: 100%;
+  margin: 0;
+  transition: all 1s ease-out;
+}
+
+.port-card .portfolio-tab figure img:hover {
+  transform: scale(1.02, 1.02);
+  opacity: 0.9;
+}
+
+form h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.port-card .portfolio-tab h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.port-card .portfolio-tab .text-dark {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+  list-style: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.port-card .portfolio-tab .dot {
+  background-color: #bbb;
+  border-radius: 10%;
+}
+
+form p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  transition: transform 3s ease-out;
+}
+
+form p:hover {
+  transform: translate(50%);
+}
+
+.port-card .portfolio-tab p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.about-me-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 5px;
+  background-color: #fff;
+  border-top-right-radius: 85px;
+}
+
+.about-me-section .cover-div .intro-heading {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #172b4d;
+}
+
+.about-me-section .cover-div .intro-text {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div .connect-lead {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+}
+
+.about-me-section .cover-div .connect-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-me-section .cover-div .connect-links ul li {
+  padding: 15px;
+}
+
+.contact-bg {
+  background: url(../img/contact.png) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  border-top-left-radius: 89px;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-bg form {
+  padding: 6vw;
+}
+
+.form-group * {
+  width: 100%;
+  margin-bottom: 3vw;
+  padding: 1.4vw;
+  border-radius: 2vw;
+  border: #fff solid 0.1px;
+}
+
+form input {
+  padding: 1.5vw;
+  color: #6070ff;
+  border-radius: 1vw;
+  border: #fff solid 0.1px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+form textarea {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+form input[type="submit"] {
+  display: block;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+form input[type="submit"]:focus {
+  background: #5e6ad8;
+  color: #fff;
+}
