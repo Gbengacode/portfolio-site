@@ -32,6 +32,9 @@ header .logo {
 .logo a {
   text-decoration: none;
   font-size: 20px;
+  color: #1028fe;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .navbar ul {
@@ -46,7 +49,7 @@ header .logo {
 
 .navbar ul .navbar-item a {
   text-decoration: none;
-  color: #344563;
+  color: #071ffd;
 }
 
 .lang {
@@ -78,13 +81,13 @@ header .logo {
 }
 
 .port-card .portfolio-tab ul li {
-  font-size: 13px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 10px;
   letter-spacing: 0;
   text-align: left;
-  color: #7a869a;
+  color: #424040;
 }
 
 .port-card .portfolio-tab ul li::marker {
@@ -108,7 +111,7 @@ header .logo {
 }
 
 .navbar ul .navbar-brand a {
-  color: #6070ff;
+  color: #071ffd;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -135,7 +138,7 @@ header .logo {
   width: 50%;
   height: 48px;
   margin-top: 20px;
-  color: #396df2;
+  color: #071ffd;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -227,7 +230,7 @@ header .logo {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #071ffd;
 }
 
 .port-card .portfolio-tab .badge li :hover {
@@ -284,13 +287,13 @@ form h2 {
 }
 
 .port-card .portfolio-tab .text-dark {
-  font-size: 13px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   line-height: 6px;
   letter-spacing: 0;
   text-align: left;
-  color: #344563;
+  color: #293344;
   list-style: none;
   padding: 5px;
   text-transform: uppercase;
@@ -394,7 +397,7 @@ form p:hover {
   width: 100%;
   margin-bottom: 3vw;
   padding: 1.4vw;
-  border-radius: 2vw;
+  border-radius: 0.5vw;
   border: #fff solid 0.1px;
 }
 
