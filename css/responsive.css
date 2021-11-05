@@ -2,6 +2,16 @@
   .navbar ul .main-menu {
     display: none;
   }
+
+  .port-card .portfolio-tab ul li {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #424040;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -30,6 +40,20 @@
     background-color: #fff;
   }
 
+  .port-card .portfolio-tab .badge li {
+    padding: 1vw 3vw;
+    background: #ebebff;
+    border-radius: 2vw;
+    margin: 0 8px 0 0;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #071ffd;
+  }
+
   .btn-white {
     padding: 12px;
     border: 1px solid #071ffd;
@@ -50,20 +74,20 @@
 
   .btn-white-one {
     padding: 12px;
-    border: 1px solid #6070ff;
+    border: 1px solid #071ffd;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 16px;
     background: #071ffd;
     width: 30%;
+    height: 48px;
     margin-top: 20px;
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.03em;
     text-align: center;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    outline: none;
   }
 
   .btn-white-one:hover {
@@ -80,7 +104,7 @@
     color: #172b4d;
   }
 
-  .about-me-section .cover-div {
+  .about-me-section .container {
     display: flex;
     flex-direction: row;
     gap: 40px;
