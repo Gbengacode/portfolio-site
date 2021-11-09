@@ -50,6 +50,24 @@ header .logo {
 .navbar ul .navbar-item a {
   text-decoration: none;
   color: #071ffd;
+  display: block;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.navbar ul .navbar-brand a {
+  color: #071ffd;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.navbar ul .navbar-item a:hover {
+  background: #071ffd;
+  color: #fff;
 }
 
 .lang {
@@ -108,16 +126,6 @@ header .logo {
   padding: 10px;
   align-self: center;
   color: #253858;
-}
-
-.navbar ul .navbar-brand a {
-  color: #071ffd;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
 }
 
 .intro-wrapper {

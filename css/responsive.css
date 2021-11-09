@@ -5,9 +5,11 @@
     z-index: 2;
     cursor: pointer;
     height: 100%;
-    width: 100%;
+    width: 90%;
     position: fixed;
-  
+    left: 0;
+    right: 0;
+    overflow: hidden;
   }
 
   .navbar > .hidden {
@@ -58,7 +60,7 @@
     color: #fff;
     display: block;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     border-radius: 16px;
     font-size: 18px;
   }
@@ -194,13 +196,13 @@
     padding: 5vw 24vw;
   }
 
-  form input[type='submit'] {
+  form input[type="submit"] {
     display: block;
     cursor: pointer;
     margin: 0 auto;
   }
 
-  form input[type='submit']:hover {
+  form input[type="submit"]:hover {
     background: #6070ff;
     color: #fff;
   }
