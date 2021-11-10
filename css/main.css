@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
 html {
   box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   background: #e5e5e5;
@@ -61,7 +61,7 @@ header .logo {
 
 .navbar ul .navbar-brand a {
   color: #071ffd;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -72,6 +72,32 @@ header .logo {
 .navbar ul .navbar-item a:hover {
   background: #071ffd;
   color: #fff;
+}
+
+.errorMsg {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  margin-top: 50px;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.errorMsg > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.errorMsg > ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 10px;
 }
 
 .lang {
@@ -505,7 +531,6 @@ form p:hover {
   margin-bottom: 3vw;
   padding: 1.4vw;
   border-radius: 0.5vw;
-  border: #fff solid 0.1px;
 }
 
 form input {
@@ -525,17 +550,17 @@ form textarea {
   color: #071ffd;
 }
 
-form input[type="submit"] {
+form input[type='submit'] {
   display: block;
   cursor: pointer;
 }
 
-form input[type="submit"]:hover {
+form input[type='submit']:hover {
   background: #071ffd;
   color: #fff;
 }
 
-form input[type="submit"]:focus {
+form input[type='submit']:focus {
   background: #071ffd;
   color: #fff;
 }
