@@ -74,7 +74,6 @@ header .logo {
   color: #fff;
 }
 
-
 .lang {
   margin: 0;
   padding: 0;
@@ -143,16 +142,6 @@ header .logo {
   color: #253858;
 }
 
-.navbar ul .navbar-brand a {
-  color: #071ffd;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-}
-
 .intro-wrapper {
   display: flex;
   padding: 40px;
@@ -215,7 +204,6 @@ header .logo {
   gap: 40px;
 }
 
-
 .intro-wrapper .connect-lead {
   font-size: 16px;
   font-style: normal;
@@ -261,8 +249,17 @@ header .logo {
   list-style-type: none;
 }
 
-.port-card .invert .badge ul {
-  list-style-type: none;
+.port-card .invert .badge li {
+  padding: 1vw 3vw;
+  background: #ebebff;
+  border-radius: 2vw;
+  margin: 0 8px 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #071ffd;
 }
 
 .port-card .portfolio-tab .badge li {
@@ -279,20 +276,6 @@ header .logo {
   color: #071ffd;
 }
 
-port-card .invert .badge li {
-  padding: 1vw 3vw;
-  background: #ebebff;
-  border-radius: 2vw;
-  margin: 0 8px 0 0;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #071ffd;
-} 
-
 .port-card .portfolio-tab .badge li :hover {
   color: #ebebff;
   background: #6070ff;
@@ -302,7 +285,6 @@ port-card .invert .badge li {
   color: #ebebff;
   background: #6070ff;
 }
-
 
 .port-card {
   display: grid;
@@ -383,7 +365,6 @@ form h2 {
   color: #172b4d;
 }
 
-
 .port-card .portfolio-tab .text-dark {
   font-size: 1.2rem;
   font-style: normal;
@@ -409,7 +390,6 @@ form h2 {
   padding: 5px;
   text-transform: uppercase;
 }
-
 
 .port-card .portfolio-tab .dot {
   background-color: #bbb;
@@ -453,6 +433,7 @@ form p:hover {
   text-align: left;
   color: #344563;
 }
+
 .about-me-section .container {
   display: flex;
   flex-direction: column;
