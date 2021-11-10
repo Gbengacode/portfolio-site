@@ -1,4 +1,46 @@
 @media only screen and (max-width: 991px) {
+  .small-menu {
+    background-color: #071ffd;
+    opacity: 0.8;
+    z-index: 2;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+  }
+
+  .icon {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .fa-times {
+    color: #fff;
+    position: absolute;
+    left: 300px;
+  }
+
+  .small-menu ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .small-menu ul li {
+    padding: 15px;
+  }
+
+  .small-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
   .navbar ul .main-menu {
     display: none;
   }
@@ -15,6 +57,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .small-menu {
+    display: none;
+  }
+
   .navbar ul .hamburger {
     display: none;
   }

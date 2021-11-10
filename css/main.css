@@ -23,6 +23,10 @@ header {
   background-color: #fff;
 }
 
+.small-menu {
+  display: none;
+}
+
 header .logo {
   flex: 1;
   padding: 10px;
