@@ -535,7 +535,7 @@ form p:hover {
 
 form input {
   padding: 1.5vw;
-  color: #071ffd;
+  color: #172b4d;
   border-radius: 1vw;
   border: #fff solid 0.1px;
   font-weight: 500;
@@ -547,7 +547,7 @@ form input {
 form textarea {
   font-weight: 500;
   font-size: 20px;
-  color: #071ffd;
+  color: #172b4d;
 }
 
 form input[type='submit'] {
