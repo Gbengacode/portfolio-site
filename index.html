@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/responsive.css"/>
     <link rel="stylesheet" href="./css/animate.css"/>
+    <link rel="stylesheet" href="./css/modal.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Home | Emmanuel's portfolio</title>
     
@@ -40,7 +41,11 @@
       gtag("js", new Date());
       gtag("config", "G-XXB8FY4YBD");
     </script>
-    <script src="./js/main.js" defer></script>
+      <script src="./js/projectdata.js" type="module" defer></script>
+      <script src="./js/main.js" type="module" defer></script>
+      <script src="./js/project.js" type="module" defer></script>
+      <script src="./js/action.js" type="module" defer></script>
+     
   </head>
   <body>
     <div class="small-menu">
@@ -127,151 +132,9 @@
           </div>
         </div>
       </section>
-      <section class="port-card" id="port-link">
-        <div class="portfolio-tab">
-          <figure>
-            <img src="img/port1.png" alt="portfolio image" />
-          </figure>
-          <div class="cover-title">
-            <h2 class="portfolio-heading">Tonic</h2>
 
-            <ul>
-              <li class="text-dark">Canopy</li>
-              <li>
-                Back End Dev
-              </li>
-              <li>
-                2015
-              </li>
-            </ul>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="badge">
-              <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="portfolio-btn-call">
-              <button type="button" class="btn-white">See Project</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="port-card">
-        <div class="portfolio-tab">
-          <div class="cover-title">
-            <h2 class="portfolio-heading">Multi-Post Stories</h2>
-
-            <ul>
-              <li class="text-dark">Canopy</li>
-              <li>
-                Back End Dev
-              </li>
-              <li>
-                2015
-              </li>
-            </ul>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="badge">
-              <ul>
-                <li>Html</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="portfolio-btn-call">
-              <button type="button" class="btn-white">See Project</button>
-            </div>
-          </div>
-          <figure>
-            <img src="img/port2.png" alt="portfolio picture " />
-          </figure>
-        </div>
-      </section>
-
-      <section class="port-card">
-        <div class="portfolio-tab">
-          <figure>
-            <img src="img/port3.png" alt="portfolio picture " />
-          </figure>
-          <div class="cover-title">
-            <h2 class="portfolio-heading">Toni</h2>
-            <ul>
-              <li class="text-dark">Canopy</li>
-              <li>
-               
-                Back End Dev
-              </li>
-              <li>
-                2015
-              </li>
-            </ul>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="badge">
-              <ul>
-                <li>Html</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="portfolio-btn-call">
-              <button type="button" class="btn-white-one">See Project</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="port-card">
-        <div class="portfolio-tab">
-          <figure>
-            <img src="img/port4.png" alt="portfolio picture " />
-          </figure>
-          <div class="cover-title">
-            <h2 class="portfolio-heading">Multi-Post Stories</h2>
-
-            <ul>
-              <li class="text-dark">Canopy</li>
-              <li>
-                
-                Back End Dev
-              </li>
-              <li>
-                2015
-              </li>
-            </ul>
-
-            <p>
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="badge">
-              <ul>
-                <li>Html</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="portfolio-btn-call">
-              <button type="button" class="btn-white">See Project</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      <div class="modal-holder"></div>
+      <div class="holder"></div>
       <section class="about-me-section" id="about-link">
         <div class="container">
           <div>

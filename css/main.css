@@ -54,6 +54,24 @@ header .logo {
 .navbar ul .navbar-item a {
   text-decoration: none;
   color: #071ffd;
+  display: block;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.navbar ul .navbar-brand a {
+  color: #071ffd;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.navbar ul .navbar-item a:hover {
+  background: #071ffd;
+  color: #fff;
 }
 
 .lang {
@@ -94,6 +112,16 @@ header .logo {
   color: #424040;
 }
 
+.port-card .invert ul li {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #424040;
+}
+
 .port-card .portfolio-tab ul li::marker {
   font-size: 1.5em;
   color: #7a869a;
@@ -114,16 +142,6 @@ header .logo {
   color: #253858;
 }
 
-.navbar ul .navbar-brand a {
-  color: #071ffd;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-}
-
 .intro-wrapper {
   display: flex;
   padding: 40px;
@@ -139,8 +157,6 @@ header .logo {
   box-sizing: border-box;
   border-radius: 16px;
   background-color: #fff;
-  width: 50%;
-  height: 48px;
   margin-top: 20px;
   color: #071ffd;
   font-size: 14px;
@@ -175,6 +191,13 @@ header .logo {
 }
 
 .port-card .portfolio-tab ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+.port-card .invert ul {
   display: flex;
   padding: 0;
   margin: 0;
@@ -222,6 +245,23 @@ header .logo {
   list-style-type: none;
 }
 
+.port-card .invert .badge ul {
+  list-style-type: none;
+}
+
+.port-card .invert .badge li {
+  padding: 1vw 3vw;
+  background: #ebebff;
+  border-radius: 2vw;
+  margin: 0 8px 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #071ffd;
+}
+
 .port-card .portfolio-tab .badge li {
   padding: 1vw 3vw;
   background: #ebebff;
@@ -237,6 +277,11 @@ header .logo {
 }
 
 .port-card .portfolio-tab .badge li :hover {
+  color: #ebebff;
+  background: #6070ff;
+}
+
+.port-card .invert .badge li :hover {
   color: #ebebff;
   background: #6070ff;
 }
@@ -258,13 +303,34 @@ header .logo {
   background-color: #fff;
 }
 
+.port-card .invert {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #dfe1e6;
+  padding: 40px;
+  box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+  background-color: #fff;
+}
+
 .port-card .portfolio-tab figure img {
   width: 100%;
   margin: 0;
   transition: all 1s ease-out;
 }
 
+.port-card .invert figure img {
+  width: 100%;
+  margin: 0;
+  transition: all 1s ease-out;
+}
+
 .port-card .portfolio-tab figure img:hover {
+  transform: scale(1.02, 1.02);
+  opacity: 0.9;
+}
+
+.port-card .invert figure img:hover {
   transform: scale(1.02, 1.02);
   opacity: 0.9;
 }
@@ -289,6 +355,16 @@ form h2 {
   color: #172b4d;
 }
 
+.port-card .invert h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
 .port-card .portfolio-tab .text-dark {
   font-size: 1.2rem;
   font-style: normal;
@@ -302,7 +378,25 @@ form h2 {
   text-transform: uppercase;
 }
 
+.port-card .invert .text-dark {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #293344;
+  list-style: none;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
 .port-card .portfolio-tab .dot {
+  background-color: #bbb;
+  border-radius: 10%;
+}
+
+.port-card .invert .dot {
   background-color: #bbb;
   border-radius: 10%;
 }
@@ -321,6 +415,16 @@ form p:hover {
 }
 
 .port-card .portfolio-tab p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.port-card .invert p {
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
