@@ -21,7 +21,7 @@
   }
 }
 
-.overlay {
+.small-menu {
   animation-duration: 1.2s;
   animation-name: slidein;
   animation-timing-function: ease-in-out;

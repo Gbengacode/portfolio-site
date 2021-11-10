@@ -1,19 +1,31 @@
-const ul = document.querySelector('.navbar > .menu-item');
-const barIcon = document.querySelector('.fa-bars');
+const menu = document.querySelector('.small-menu');
+const ul = document.querySelectorAll('.small-menu > ul');
 const timesIcon = document.querySelector('.fa-times');
+const barIcon = document.querySelector('.bar');
+const blurAll = document.querySelectorAll('body > *:not(.small-menu)');
 
-const barIconCallBack = () => {
-  barIcon.classList.add('hidden');
-  timesIcon.classList.remove('hidden');
-  ul.classList.remove('hidden');
-  ul.classList.add('overlay');
-};
+barIcon.addEventListener('click', () => {
+  menu.style.display = 'block';
+  barIcon.style.display = 'none';
+  for (let i = 0; i < blurAll.length; i += 1) {
+    blurAll[i].style.filter = 'blur(5px)';
+  }
+});
 
-const timesCallBack = () => {
-  barIcon.classList.remove('hidden');
-  timesIcon.classList.add('hidden');
-  ul.classList.add('hidden');
-};
+timesIcon.addEventListener('click', () => {
+  menu.style.display = 'none';
+  barIcon.style.display = 'block';
+  for (let i = 0; i < blurAll.length; i += 1) {
+    blurAll[i].style.filter = '';
+  }
+});
 
-barIcon.addEventListener('click', barIconCallBack);
-timesIcon.addEventListener('click', timesCallBack);
+Array.from(ul).forEach((list) => {
+  list.addEventListener('click', () => {
+    menu.style.display = 'none';
+    barIcon.style.display = 'block';
+    for (let i = 0; i < blurAll.length; i += 1) {
+      blurAll[i].style.filter = '';
+    }
+  });
+});

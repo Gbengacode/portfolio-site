@@ -1,73 +1,48 @@
 @media only screen and (max-width: 991px) {
-  .overlay {
+  .small-menu {
     background-color: #071ffd;
     opacity: 0.8;
     z-index: 2;
     cursor: pointer;
     height: 100%;
-    width: 90%;
+    width: 100%;
     position: fixed;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-  }
-
-  .navbar > .hidden {
     display: none;
-  }
-
-  header {
-    display: block;
-    padding: 20px;
-    background-color: #fff;
-  }
-
-  .navbar > ul {
-    display: flex;
     flex-direction: column;
   }
 
-  header .logo {
+  .icon {
     display: flex;
-    justify-content: space-between;
+    margin-top: 30px;
   }
 
-  header > .logo > .hidden {
-    display: none;
+  .fa-times {
+    color: #fff;
+    position: absolute;
+    left: 300px;
   }
 
-  header > .logo > .fa-times {
-    background-color: blue;
-    padding: 10px;
-    cursor: pointer;
-    color: white;
-  }
-
-  header > .logo > .fa-bars {
-    background-color: blue;
-    padding: 10px;
-    cursor: pointer;
-    color: white;
-  }
-
-  .navbar ul .navbar-item {
-    padding: 0;
+  .small-menu ul {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    padding: 0;
+    list-style-type: none;
   }
 
-  .navbar ul .navbar-item a {
+  .small-menu ul li {
+    padding: 15px;
+  }
+
+  .small-menu ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 10px;
-    text-align: left;
-    border-radius: 16px;
-    font-size: 18px;
+    font-size: 32px;
+    font-weight: 600;
   }
 
-  .navbar ul .navbar-item a:hover :active {
-    background: #071ffd;
-    color: #fff;
+  .navbar ul .main-menu {
+    display: none;
   }
 
   .port-card .portfolio-tab ul li {
@@ -82,8 +57,12 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .navbar > .menu-item {
-    display: flex;
+  .small-menu {
+    display: none;
+  }
+
+  .navbar ul .hamburger {
+    display: none;
   }
 
   .intro-wrapper {
@@ -96,14 +75,6 @@
 
   .intro-wrapper .container {
     margin: 0 15%;
-  }
-
-  header > .logo > .fa-bars {
-    display: none;
-  }
-
-  header > .logo > .fa-times {
-    display: none;
   }
 
   .port-card .portfolio-tab {

@@ -15,10 +15,12 @@
  ![screenshot](./screenshots/desktop5.png)
  ![screenshot](./screenshots/desktop6.png)
  ![screenshot](./screenshots/desktop7.png)
+ ![screenshot](./screenshots/menu.png)
 ## Built With
 
--HTML
--CSS
+- HTML
+- CSS
+- JAVASCRIPT
 
 ## Live Demo
 
@@ -33,13 +35,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
--Have git install on your local machine
+- Have git install on your local machine
 
 ### Setup
 
--Clone the repository 
+- Clone the repository to your machine
 
--Run on your machine
+- Run on your browser
 
 
 ## Author
