@@ -78,8 +78,8 @@ projectBtnArr.forEach((project) => {
                 
             </ul>
             <div class="btn-group">
-                <a href=${info.livelink} class="btn">see live <i class="fa fa-external-link"></i></a>
-                <a href=${info.gitlink} class="btn"><span>github</span> <i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href=${info.livelink} class="btn" target="_blank">See live <i class="fa fa-external-link"></i></a>
+                <a href=${info.gitlink} class="btn" target="_blank"><span>See source</span> <i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
           
          </div>
@@ -87,7 +87,7 @@ projectBtnArr.forEach((project) => {
          </div>
 
         </div>
-        <hr/>
+      
       
       </div>
    
