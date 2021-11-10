@@ -41,10 +41,11 @@
       gtag("js", new Date());
       gtag("config", "G-XXB8FY4YBD");
     </script>
-      <script src="./js/projectdata.js" type="module" defer></script>
       <script src="./js/main.js" type="module" defer></script>
       <script src="./js/project.js" type="module" defer></script>
       <script src="./js/action.js" type="module" defer></script>
+      <script src="./js/form.js" type="module" defer></script>
+    
      
   </head>
   <body>
@@ -212,7 +213,7 @@
       </section>
       <section class="contact-bg" id="contact-link">
         <div class="contact-form">
-          <form action="https://formspree.io/f/mpzkebly" method="POST">
+          <form action="https://formspree.io/f/mpzkebly" method="POST" novalidate> 
             <h2>Contact me</h2>
             <p>
               If you have an application you are interested in developing, a
@@ -222,29 +223,33 @@
             <div class="form-group">
               <input
                 type="text"
-                name="name"
+                id="name"
                 placeholder="Firstname"
-                required
                 maxlength="30"
+                name="name"
+                 
               />
             </div>
-
+            
             <div class="form-group">
-              <input type="email" placeholder="Email" name="email" required />
+              <input type="email" placeholder="Email" id="email" name="email"  />
             </div>
+             
             <div class="form-group">
               <textarea
                 maxlength="500"
                 placeholder="Message"
-                name="message"
-                required
+                id="message"
                 cols="10"
                 rows="10"
+                name="message"
               ></textarea>
+             
             </div>
             <input type="submit" value="Get In Touch" />
+           
           </form>
-        </div>
+          
       </section>
     </main>
   </body>
