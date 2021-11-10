@@ -69,7 +69,7 @@ projectBtnArr.forEach((project) => {
          </div>
          <img src="${info.image}" class="img-fluid">
          <div class="desc">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempore, fuga totam molestias quidem est esse eveniet magni suscipit ratione a nemo in, earum, voluptatum mollitia hic cumque quia id?</p>
+            <p>${info.description}</p>
            <div class="subdesc">
             <ul> 
                 <li>${info.lang1}</li>
