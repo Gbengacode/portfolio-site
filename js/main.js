@@ -1,4 +1,5 @@
 const ul = document.querySelector('.navbar > .menu-item');
+let menuLists = document.querySelectorAll('.navbar > .menu-item > li');
 const barIcon = document.querySelector('.fa-bars');
 const timesIcon = document.querySelector('.fa-times');
 
@@ -17,3 +18,12 @@ const timesCallBack = () => {
 
 barIcon.addEventListener('click', barIconCallBack);
 timesIcon.addEventListener('click', timesCallBack);
+
+menuLists = Array.from(menuLists);
+menuLists.forEach((list) => {
+  list.addEventListener('click', () => {
+    ul.classList.add('hidden');
+    barIcon.classList.remove('hidden');
+    timesIcon.classList.add('hidden');
+  });
+});
