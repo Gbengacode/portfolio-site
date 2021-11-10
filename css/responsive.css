@@ -19,7 +19,7 @@
   .fa-times {
     color: #fff;
     position: absolute;
-    left: 300px;
+    left: 500px;
   }
 
   .small-menu ul {
@@ -54,6 +54,16 @@
     text-align: left;
     color: #424040;
   }
+
+  .port-card .invert ul li {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 10px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #424040;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -64,6 +74,15 @@
   .navbar ul .hamburger {
     display: none;
   }
+
+  header > .logo > .fa-bars {
+    display: none;
+  }
+
+  header > .logo > .fa-times {
+    display: none;
+  }
+
 
   .intro-wrapper {
     display: flex;
@@ -87,14 +106,37 @@
   }
 
   .port-card .portfolio-tab .badge li {
-    padding: 1vw 3vw;
+    padding: 7px;
     background: #ebebff;
-    border-radius: 2vw;
+    border-radius: 8px;
     margin: 0 8px 0 0;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #071ffd;
+  }
+
+  .port-card .invert {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    border: 1px solid #dfe1e6;
+    box-shadow: rgba(100, 100, 139, 0.2) 0 7px 29px 0;
+    background-color: #fff;
+  }
+
+  .port-card .invert .badge li {
+    padding: 7px;
+    background: #ebebff;
+    border-radius: 8px;
+    margin: 0 8px 0 0;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #071ffd;
