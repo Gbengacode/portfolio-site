@@ -1,9 +1,9 @@
 import * as validator from './utils/validate.js';
 
 const form = document.querySelector('form');
-const userName = document.querySelector('#name');
-const email = document.querySelector('#email');
-const message = document.querySelector('#message');
+export const userName = document.querySelector('#name');
+export const email = document.querySelector('#email');
+export const message = document.querySelector('#message');
 const errMsg = document.createElement('div');
 errMsg.className = 'errorMsg';
 const ul = document.createElement('ul');
