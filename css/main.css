@@ -70,8 +70,13 @@ header .logo {
 }
 
 .navbar ul .navbar-item a:hover {
-  background: #071ffd;
-  color: #fff;
+  text-decoration: underline;
+  color: #071ffd;
+}
+
+.active {
+  text-decoration: underline;
+  color: #071ffd;
 }
 
 .errorMsg {

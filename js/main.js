@@ -1,3 +1,7 @@
+import action from './action.js';
+import projectData from './projectdata.js';
+import Project from './project.js';
+
 const menu = document.querySelector('.small-menu');
 const ul = document.querySelectorAll('.small-menu > ul');
 const timesIcon = document.querySelector('.fa-times');
@@ -29,3 +33,6 @@ Array.from(ul).forEach((list) => {
     }
   });
 });
+
+Project(projectData);
+action(projectData);
