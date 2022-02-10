@@ -142,19 +142,18 @@
   }
 
   .btn-white {
-    padding: 12px;
-    border: 1px solid #071ffd;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border: 1.4px solid #071ffd;
     box-sizing: border-box;
     border-radius: 16px;
     background-color: #fff;
-    width: 30%;
     height: 48px;
     margin-top: 20px;
     color: #071ffd;
     font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
+    font-weight: 400;
     text-align: center;
     outline: none;
   }
@@ -208,10 +207,31 @@
     padding: 5vw 24vw;
   }
 
+  form input {
+    color: #172b4d;
+    border-radius: 1vw;
+    border: #fff solid 0.1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+  }
+
+  .form-group * {
+    width: 100%;
+    margin-bottom: 3vw;
+    padding: 1.4vw;
+    border-radius: 1vw;
+  }
+
   form input[type="submit"] {
     display: block;
     cursor: pointer;
     margin: 0 auto;
+    border-radius: 1vw;
+    padding: 15px;
   }
 
   form input[type="submit"]:hover {

@@ -534,25 +534,31 @@ form p:hover {
 .form-group * {
   width: 100%;
   margin-bottom: 3vw;
-  padding: 1.4vw;
-  border-radius: 0.5vw;
+  padding: 3.4vw;
+  border-radius: 1.5vw;
 }
 
 form input {
-  padding: 1.5vw;
   color: #172b4d;
   border-radius: 1vw;
   border: #fff solid 0.1px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+input::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
 }
 
 form textarea {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   color: #172b4d;
+  font-family: 'Poppins', sans-serif;
 }
 
 form input[type='submit'] {
