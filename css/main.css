@@ -29,7 +29,7 @@ header {
 
 header .logo {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
   margin: auto;
 }
 
@@ -347,12 +347,14 @@ header .logo {
 .port-card .portfolio-tab figure img {
   width: 100%;
   margin: 0;
+  border-radius: 6px;
   transition: all 1s ease-out;
 }
 
 .port-card .invert figure img {
   width: 100%;
   margin: 0;
+  border-radius: 6px;
   transition: all 1s ease-out;
 }
 

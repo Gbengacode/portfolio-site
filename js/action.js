@@ -16,8 +16,7 @@ export default (projectData) => {
          <div class="modal-subtitle">
            
              <ul>
-                 <li class="lead">Canopy</li>
-                 <li>Frontend</li>
+                 <li class="lead">Project</li>
                  <li>2022</li>
              </ul>
          </div>
@@ -32,7 +31,7 @@ export default (projectData) => {
                 
             </ul>
             <div class="btn-group">
-                <a href=${info.livelink} class="btn" target="_blank">See live <i class="fa fa-external-link"></i></a>
+                <a href=${info.livelink} class="btn" target="_blank"><span>See live </span><i class="fa fa-external-link"></i></a>
                 <a href=${info.gitlink} class="btn" target="_blank"><span>See source</span> <i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
           

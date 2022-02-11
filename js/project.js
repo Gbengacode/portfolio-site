@@ -8,12 +8,9 @@ export default (projectData) => {
   </figure>
   <div class="cover-title">
     <h2 class="portfolio-heading">${project.name}</h2>
-
     <ul>
-      <li class="text-dark">Canopy</li>
-      <li>
-        FrontEnd
-      </li>
+      <li class="text-dark">Project</li>
+    
       <li>
         2022
       </li>
