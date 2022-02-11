@@ -29,7 +29,7 @@ export default [
   },
   {
     id: 3,
-    name: 'Tonic',
+    name: 'Product Landing Pages',
     description:
         'This is the landing page for show casing the various products developed by Lampnets Company',
     image: 'img/s3.png',
